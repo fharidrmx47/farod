@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rodan Rmx</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: url("BEAGROUND.jpg") no-repeat center center fixed; background-size: cover; color: white; }
+header { padding: 10px; background: linear-gradient(90deg, #6a00ff, #00bfff); box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; }
+.x1 { display: flex; align-items: center; gap: 18px; max-width: 900px; margin: auto; }
+.x1 img { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+.x2 h1 { font-size: 28px; margin-bottom: 6px; }
+.x2 p { opacity: 0.8; font-size: 15px; }
+.x3 { width: 85%; max-width: 900px; margin: auto; padding: 100px 0 50px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 25px; }
+.x4 { background: #181818; border: 2px solid #fff; border-radius: 40px; overflow: hidden; transition: 0.3s; box-shadow: 0 0 15px rgba(0,170,255,.25); }
+.x4:hover { transform: translateY(-8px); box-shadow: 0 0 25px #00aaff; }
+.x4 img { width: 85%; margin: 20px auto; display: block; aspect-ratio: 1/1; object-fit: cover; border-radius: 15px; }
+.x5 { padding: 18px; }
+.x5 h2 { margin-bottom: 10px; font-size: 23px; }
+.x6 { font-size: 24px; color: #00ff88; margin: 10px 0; font-weight: bold; }
+.x7 { color: #bbb; margin-bottom: 15px; }
+button { padding: 12px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; font-weight: bold; transition: 0.3s; }
+.x8 { background: #00bfff; color: white; width: 48%; }
+.x9 { background: #00ff88; color: white; width: 48%; float: right; }
+button:hover { opacity: 0.85; }
+audio { width: 100%; margin-top: 15px; }
+.xA { display: none; }
+.xA.active { display: block; }
+.xB { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 500px; background: rgba(20,20,20,.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,.15); border-radius: 30px; display: flex; justify-content: space-around; align-items: center; padding: 12px 0; box-shadow: 0 0 20px rgba(0,170,255,.25); z-index: 1000; }
+.xB button { background: none; border: none; color: white; font-size: 16px; font-weight: bold; cursor: pointer; padding: 10px 20px; }
+.xB button:hover { color: #00bfff; }
+footer { text-align: center; padding: 20px; }
+.xC { width: 85%; margin: 0 auto; }
+.xD { width: 100%; height: 5px; background: #444; border-radius: 10px; overflow: hidden; cursor: pointer; }
+.xE { width: 0%; height: 100%; background: #fff; border-radius: 10px; }
+.xF { display: flex; justify-content: space-between; margin-top: 6px; font-size: 12px; color: #aaa; }
+</style>
+</head>
+<body>
+
+<header>
+<div class="x1"><img src="LOGO.jpg" alt="Logo"><div class="x2"><h1>Rodan Rmx</h1><p>Flm Enak Ya Cuman Di Rodan Rmx</p></div></div>
+</header>
+
+<div id="a" class="xA active">
+<div style="max-width:300px;margin:120px auto 120px;background:#181818;padding:30px;border-radius:40px;text-align:center;box-shadow:0 0 20px rgba(0,170,255,.35)">
+<h2 style="font-size:25px;margin-bottom:20px">Klik (🛒Produk) Di Kanan Bawah</h2>
+<hr style="border:1px solid #444"><br>
+<h2 style="font-size:25px;line-height:20px">BELI 2, GRATIS 1!!!</h2><br><br>
+<button id="c1" style="background:#00bfff;color:white;padding:15px 35px;border:none;border-radius:15px;font-size:20px;font-weight:bold">📁Free Flm</button><br><br>
+<button id="c2" style="background:#00bfff;color:white;padding:15px 35px;border:none;border-radius:15px;font-size:20px;font-weight:bold">📑Testimoni</button><br><br>
+<button id="c3" style="background:#00bfff;color:white;padding:15px 35px;border:none;border-radius:15px;font-size:20px;font-weight:bold">💬WhatsApp</button><br><br>
+<hr style="border:1px solid #444"><br>
+<div style="font-size:20px">
+<h3 id="p1">🛠️ Total Produk : 0</h3><br>
+<h3 id="p2">📊 Terjual : 0</h3>
+</div>
+</div>
+</div>
+
+<div id="b" class="xA">
+<div class="x3">
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>ASTAGA BERCANDA - AKBAR CHALAY</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 2</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="AKBAR18.mp3"></audio></div></div>
+
+
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>INTO YOU - FEXD RMX</h2><div class="x6">Rp55.000</div><div class="x7">Terjual 0</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="INTO24.mp3"></audio></div></div>
+  
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>RADYA SPN - SELAIN DONATUR VIRAL</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 19</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="DONATUR13.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>RADYA SPN - V2</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 13</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="RADYA V2 15.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>RADYA SPN - V1</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 9</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="RADYA6 .mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>THAILAND - AIPON KUPI</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 17</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="TH KUPI16.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ MASTAY - V1</h2><div class="x6">Rp50.000</div><div class="x7">Terjual 13</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="MASTAY V1 - 22.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ MASTAY - V2</h2><div class="x6">Rp50.000</div><div class="x7">Terjual 4</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="MASTAY V2 - 23.mp3"></audio></div></div>
+
+
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>INBOUNCE</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 0</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="INBON25.mp3"></audio></div></div>
+
+
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ TELOOR - FULL LAGU</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 5</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="TELOOR20.mp3"></audio></div></div>
+
+
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>SALAHKAH KITA - IMAM</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 0</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="SALAHKAH KITA 21.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>MILION - IMAM SIDIK</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 5</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="MILION STARS17.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>HIPDUUT - LATASPA</h2><div class="x6">Rp30.000</div><div class="x7">Terjual 10</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="HIPDUUT11.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>THAILAND EDIT</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 12</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="TH9.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>STYLE JJ - AGA BETCH</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 8</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="AGA14.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>EL WATER - FULL LAGU</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 2</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="WATER12.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ STYHGT NANDA 777</h2><div class="x6">Rp45.000</div><div class="x7">Terjual 5</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="NANDA1.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ SATRIQ - FULL</h2><div class="x6">Rp35.000</div><div class="x7">Terjual 4</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="SATRIQ10.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>PLAY DATE - IMAM ISDX</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 6</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="IMAM SIDIK2.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>ZEIN FVNY</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 2</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="ZEIN19.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ RULLY FVNY</h2><div class="x6">Rp35.000</div><div class="x7">Terjual 6</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="RULLY3.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ PLAT KT - RAGIL YT</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 11</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="RAGIL4.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>YOU KNOW - IMAM ISDX</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 3</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="YOU KNOW5.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ - JJ FARRIJ RMX</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 5</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="FARRIJ7.mp3"></audio></div></div>
+
+  
+<div class="x4"><img src="LOGO.jpg"><div class="x5"><h2>DJ - KHARIJ SOPAN</h2><div class="x6">Rp40.000</div><div class="x7">Terjual 2</div><button class="x8">▶️ Preview</button><button class="x9">🛒 Buy</button><audio><source src="KHARIS8.mp3"></audio></div></div>
+
+</div>
+</div>
+
+<footer></footer>
+
+<div class="xB">
+<button id="m1">🏠<br>Dashboard</button>
+<button id="m2">🛒<br>Produk</button>
+</div>
+
+<script>
+const wa = "https://wa.me/6285861903481", ch = "https://whatsapp.com/channel/0029Vb8jghPCHDyh3lx0gq3Q", free = "https://whatsapp.com/channel/0029Vb8jghPCHDyh3lx0gq3Q";
+const op = u => window.open(u, "_blank");
+document.getElementById("c1").onclick = () => op(free);
+document.getElementById("c2").onclick = () => op(ch);
+document.getElementById("c3").onclick = () => op(wa);
+function pg(x) { document.querySelectorAll(".xA").forEach(e => e.classList.remove("active")); document.getElementById(x).classList.add("active"); }
+document.getElementById("m1").onclick = () => pg("a");
+document.getElementById("m2").onclick = () => pg("b");
+document.querySelectorAll(".x8").forEach(b => b.onclick = function() {
+    const c = this.closest(".x4"), a = c.querySelector("audio");
+    if (!a.paused) { a.pause(); this.innerHTML = "▶️ Preview"; return; }
+    document.querySelectorAll("audio").forEach(o => {
+        if (o !== a) { o.pause(); o.currentTime = 0; const z = o.closest(".x4").querySelector(".x8"); if (z) z.innerHTML = "▶️ Preview"; }
+    });
+    a.style.display = "block"; a.play(); this.innerHTML = "⏸️ Pause";
+});
+document.querySelectorAll("audio").forEach(a => {
+    const b = a.closest(".x4").querySelector(".x8");
+    a.addEventListener("pause", () => { if (a.currentTime > 0 && a.currentTime < a.duration) b.innerHTML = "▶️ Preview"; });
+    a.addEventListener("ended", () => { b.innerHTML = "▶️ Preview"; a.style.display = "none"; });
+});
+document.querySelectorAll(".x9").forEach(b => b.onclick = function() {
+    const c = this.closest(".x4"), n = c.querySelector("h2").innerText, h = c.querySelector(".x6").innerText, t = `Halo Rodan Rmx,\nSaya mau beli flm:\n\n${n}\n${h}`;
+    op(wa + "?text=" + encodeURIComponent(t));
+});
+let n = document.querySelectorAll(".x4").length, s = 0;
+document.querySelectorAll(".x7").forEach(e => s += parseInt(e.innerText.replace("Terjual", "").trim()) || 0);
+document.getElementById("p1").innerHTML = "📌 Total Produk : " + n;
+document.getElementById("p2").innerHTML = "📊 Terjual : " + s;
+document.querySelectorAll(".x4").forEach(c => {
+    const a = c.querySelector("audio"), box = document.createElement("div");
+    box.className = "xC";
+    box.innerHTML = '<div class="xD"><div class="xE"></div></div><div class="xF"><span class="cur">0:00</span><span class="dur">0:00</span></div>';
+    c.querySelector("img").after(box);
+    const q = box.querySelector(".xE"), cur = box.querySelector(".cur"), dur = box.querySelector(".dur"), bar = box.querySelector(".xD"), fmt = s => isNaN(s) ? "0:00" : Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0");
+    a.addEventListener("loadedmetadata", () => dur.innerText = fmt(a.duration));
+    a.addEventListener("timeupdate", () => { q.style.width = (a.currentTime / a.duration) * 100 + "%"; cur.innerText = fmt(a.currentTime); });
+    bar.addEventListener("pointerdown", e => {
+        e.preventDefault();
+        const go = v => { const r = bar.getBoundingClientRect(); a.currentTime = Math.max(0, Math.min(1, (v.clientX - r.left) / r.width)) * a.duration; };
+        go(e);
+        const mv = v => go(v), up = () => { document.removeEventListener("pointermove", mv); document.removeEventListener("pointerup", up); };
+        document.addEventListener("pointermove", mv); document.addEventListener("pointerup", up);
+    });
+    a.addEventListener("ended", () => { q.style.width = "0%"; cur.innerText = "0:00"; });
+});
+</script>
+</body>
+</html>
